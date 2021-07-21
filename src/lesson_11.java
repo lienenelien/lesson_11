@@ -6,9 +6,11 @@ public class lesson_11 {
         int[] taskArray = new int [5];
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Please eneter the first element: ");
+
+        System.out.println("Please enter the first element: ");
 
         int firstElement = scanner.nextInt();
+
         System.out.println("Please enter the last element: ");
 
         int lastElement = scanner.nextInt();
@@ -20,7 +22,7 @@ public class lesson_11 {
         taskArray[1] = (int)(Math.random() * 100d);
         taskArray[2] = (int)(Math.random() * 100d);
         taskArray[3] = (int)(Math.random() * 100d);
-        taskArray[4] = (int)(Math.random() * 100d);
+        taskArray[4] = lastElement;
 
         System.out.println(taskArray[0]);
         System.out.println(taskArray[1]);
